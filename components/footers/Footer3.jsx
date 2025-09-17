@@ -43,43 +43,11 @@ export default function Footer3() {
                   </div>
                 </div>
               </div>
-              <div
-                className="col-lg-4 col-md-4"
-                data-sal="slide-up"
-                data-sal-duration={400}
-                data-sal-delay={150}
-              >
-                <div className="call-to-btn text-left mt_sm--20 text-lg-right">
-                  <a
-                    className="btn-default"
-                    href="https://themeforest.net/user/rainbow-themes/portfolio"
-                  >
-                    Purchase Doob <i className="feather-arrow-right" />
-                  </a>
-                </div>
+              
               </div>
             </div>
           </div>
-        </div>
-        <div className="footer-top">
-          <div className="container">
-            <div className="row">
-              {footerSections.map((section, index) => (
-                <div className="col-lg-2 col-md-6 col-sm-6 col-12" key={index}>
-                  <div className="rainbow-footer-widget">
-                    <h4 className="title">{section.title}</h4>
-                    <div className="inner">
-                      <ul className="footer-link link-hover">
-                        {section.links.map((link, i) => (
-                          <li key={i}>
-                            <Link href={link.href}>{link.label}</Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              ))}
+     
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div className="rainbow-footer-widget">
                   <h4 className="title">Stay With Us.</h4>
@@ -99,9 +67,6 @@ export default function Footer3() {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
       </footer>
       {/* End Footer Area  */}
       {/* Start Copy Right Area  */}
